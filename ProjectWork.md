@@ -3,22 +3,37 @@ The saturated licensed spectrum is insufficient to meet the increasing demand fo
 
 ## Introduction
 
+channel access mechanism in Wi-Fi and NR-U.
+
 ![Comparing NR-U and WiFi channel access scheme](./images/coexistence.png)
 
 ## Results
 
+Efficiency graph for gap and reservation mechanism.
+
 ![Comparing NR-U and WiFi channel access scheme](./images/efficiency.png)
+
+Fairness graph for gap and reservation mechanism.
 
 ![Comparing NR-U and WiFi channel access scheme](./images/fairness.png)
 
+Fairness/Eficiency graph for fragemented reservation mechanism for 15 nodes in numerology 0 scenario by varying RS threshold duration.
+
 ![Comparing NR-U and WiFi channel access scheme](./images/15nodesfragRs.png)
+
+Fairness/Eficiency graph for fragemented reservation mechanism for 15 nodes in numerology 1 scenario by varying RS threshold duration.
 
 ![Comparing NR-U and WiFi channel access scheme](./images/15nodesnum1fragRS.png)
 
+Fairness/Eficiency graph for gap vs reservation vs fragemented reservation mechanism for 9 nodes in numerology 0 scenario (for different RS threshold duration only fragmented RS).
+
 ![Comparing NR-U and WiFi channel access scheme](./images/9nodesnum0fragRS.png)
+
+Fairness/Eficiency graph for reservation vs fragemented reservation mechanism for 9 nodes in numerology 0 scenario for different RS threshold duration.
 
 ![Comparing NR-U and WiFi channel access scheme](./images/RSvsFragRS.png)
 
 
+## Conclusion
 
-## conclusion
+The conventional RS-based channel access method gives higher fairness with less efficiency. The gap-based channel access method yields better efficiency where no control over fairness exists. This tradeoff in efficiency and fairness made the researchers invent new channel access schemes for NR-U. This paper proposes a hybrid channel access mechanism that combines Gap and RS-based channel access schemes. The use of fragmented RS transmission yields better efficiency than the conventional RS approach. We also proved that the proposed method gives better fairness than the normal channel access scheme. With the proposed scheme we have provided a notion of tuning the reservation signal duration according to the efficiency and fairness requirements of the user. In future work, we plan to give a mathematical model for the channel access mechanism and find the RS duration tuning function.
